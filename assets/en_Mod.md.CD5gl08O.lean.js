@@ -1,0 +1,1 @@
+import{_ as i,c as l,o as t,ae as o}from"./chunks/framework.C3Eww3Lo.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"en/Mod.md","filePath":"en/Mod.md"}'),a={name:"en/Mod.md"};function r(n,e,s,c,d,u){return t(),l("div",null,e[0]||(e[0]=[o("",6)]))}const h=i(a,[["render",r]]);export{m as __pageData,h as default};
