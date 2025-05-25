@@ -1,1 +1,0 @@
-import{_ as i,a as e,o as a,ae as r}from"./chunks/framework.Bo8DlkWZ.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Mod.md","filePath":"Mod.md"}'),t={name:"Mod.md"};function s(o,l,p,c,n,d){return a(),e("div",null,l[0]||(l[0]=[r("",6)]))}const S=i(t,[["render",s]]);export{m as __pageData,S as default};
