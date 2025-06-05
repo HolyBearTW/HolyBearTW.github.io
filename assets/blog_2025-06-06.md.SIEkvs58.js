@@ -22,4 +22,4 @@ import{_ as a,c as n,o as p,ah as e}from"./chunks/framework.DbnAvxDs.js";const m
 <span class="line"><span>．客服信箱：http://buy.gamer.com.tw/help</span></span>
 <span class="line"><span>．客服專線：(02)2516-8890 轉 4（週一至週五 09:30~13:00、14:00~18:00）　</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>巴哈姆特 電玩商城 敬上</span></span></code></pre></div><p>這樣看來原來巴哈站方被廠商陰了啊</p><p>本來以為是要跟我說因缺貨所以要被取消</p><p>原來還有備案可以轉單</p><p>想了想，畢竟之後聽聞還會再漲價</p><p>所幸不賭直接轉單最穩</p><p>這也是不幸中的大幸吧！</p><p>現在就等機子送來囉</p><p>到時候會再發一篇開箱文來做心得分享</p><p>但其實我到現在還在想要買什麼遊戲來玩XD</p><p>總之呢...</p><p>對，沒錯，這篇就是炫耀文！ 哈哈哈！</p><p><s>但同時呢，荷包也損失了不少QQ</s></p>`,17)]))}const _=a(l,[["render",t]]);export{m as __pageData,_ as default};
+<span class="line"><span>巴哈姆特 電玩商城 敬上</span></span></code></pre></div><p>這樣看來原來巴哈站方被廠商陰了啊<br> 本來以為是要跟我說因缺貨所以要被取消<br> 原來還有備案可以轉單<br> 想了想，畢竟之後聽聞還會再漲價<br> 所幸不賭直接轉單最穩<br> 這也是不幸中的大幸吧！</p><p>現在就等機子送來囉<br> 到時候會再發一篇開箱文來做心得分享<br> 但其實我到現在還在想要買什麼遊戲來玩XD</p><p>總之呢...<br> 對，沒錯，這篇就是炫耀文！ 哈哈哈！</p><p><s>但同時呢，荷包也損失了不少QQ</s></p>`,9)]))}const b=a(l,[["render",t]]);export{m as __pageData,b as default};
