@@ -1,140 +1,98 @@
-<html lang="zh-TW" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>聖小熊的祕密基地</title>
-    <meta name="description" content="Not Found">
-    <meta name="generator" content="VitePress v1.6.3">
-    <link rel="preload stylesheet" href="/assets/style.eGCZe1-1.css" as="style">
-    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
-    <script type="module" src="/assets/app.BobNlz4F.js"></script>
-    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <meta name="theme-color" content="#00FFEE">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="https://font.sec.miui.com/font/css?family=MiSans:200,300,400,450,500,600,650,700:Chinese_Simplify,Latin&amp;display=swap">
-    <link rel="stylesheet" href="https://font.sec.miui.com/font/css?family=MiSans:200,300,400,450,500,600,650,700:Chinese_Traditional,Latin&amp;display=swap">
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&amp;version=v22.0" nonce="z9c34u1R"></script>
-    <meta property="fb:app_id" content="705847265169451">
-    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
-    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        background: #191e20;
-        color: #fff;
-        font-family: 'MiSans', 'Noto Sans TC', sans-serif;
-        display: flex;
-        flex-direction: column;
-      }
-      .site-header {
-        background: #191e20cc;
-        border-bottom: 1.5px solid #00ffee;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.2rem 2rem 1.2rem 2rem;
-        position: relative;
-        z-index: 10;
-        backdrop-filter: blur(2px);
-      }
-      .site-title {
-        font-size: 1.8rem;
-        font-weight: bold;
-        color: #00ffee;
-        letter-spacing: .1em;
-        text-shadow: 0 2px 12px #00ffee55;
-      }
-      .site-nav a {
-        color: #00ffee;
-        text-decoration: none;
-        margin-right: 2rem;
-        font-size: 1.13rem;
-        font-weight: 500;
-        transition: color 0.15s;
-      }
-      .site-nav a:last-child { margin-right: 0; }
-      .site-nav a:hover {
-        color: #fff;
-        text-decoration: underline;
-      }
-      .notfound-content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 65vh;
-        text-align: center;
-      }
-      .bear {
-        font-size: 4rem;
-        display: block;
-        margin-bottom: 1.3rem;
-        text-shadow: 0 2px 20px #00ffee99;
-      }
-      h1 {
-        font-size: 2.7rem;
-        color: #00ffee;
-        margin-bottom: 2rem;
-        text-shadow: 0 4px 24px #00ffee55;
-        letter-spacing: .14em;
-      }
-      p {
-        font-size: 1.25rem;
-        color: #fff;
-        margin-bottom: 2rem;
-        line-height: 2.2;
-      }
-      strong {
-        color: #00ffee;
-        font-weight: bold;
-      }
-      .home-link {
-        font-size: 1.13rem;
-        color: #00ffee;
-        text-decoration: underline;
-      }
-      @media (max-width: 600px) {
-        .site-header {
-          flex-direction: column;
-          align-items: flex-start;
-          padding: 1rem 1rem 0.5rem 1rem;
-        }
-        .site-title { font-size: 1.3rem; }
-        .site-nav a { margin-right: 1rem; font-size: 1rem; }
-        .bear { font-size: 2.5rem; }
-        h1 { font-size: 1.35rem; }
-      }
-    </style>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="site-title">
-        <a href="/" style="color:inherit;text-decoration:none;">聖小熊的祕密基地</a>
-      </div>
-      <nav class="site-nav">
-        <a href="/blog">日誌</a>
-        <a href="/Mod">作品集</a>
-        <a href="https://t.me/HolyBearTW" target="_blank">Telegram</a>
-        <a href="https://paypal.me/holybear0610" target="_blank">贊助</a>
-      </nav>
-    </header>
-    <div class="notfound-content">
+<template>
+  <div class="vp-404">
+    <div class="container">
       <span class="bear">🐻</span>
-      <h1>404</h1><br>
-      <h1>迷路了！</h1>
+      <h1>404
+      <br>迷路了！</h1></br>
       <p>
         這裡什麼都沒有，<br>
         小熊正在尋找出口中……<br>
         <strong>不如跟小熊一起回首頁吧！</strong>
       </p>
-      <a class="home-link" href="/">🏠 回首頁</a>
+      <a class="btn-home" href="/">帶我回首頁</a>
     </div>
-    <script>
-      window.__VP_HASH_MAP__=JSON.parse("{\"blog_2025-05-25.md\":\"nbm5BzH4\",\"blog_2025-05-26.md\":\"DoAQbbJB\",\"blog_2025-06-06.md\":\"D3cU2g2E\",\"blog_index.md\":\"BAvPBYxf\",\"en_blog_2025-05-25.md\":\"BlkikN1O\",\"en_blog_2025-05-26.md\":\"B5KzmH_M\",\"en_blog_2025-06-06.md\":\"CVTfqvvl\",\"en_blog_index.md\":\"TFCoYYEk\",\"en_index.md\":\"CBhPk8ZP\",\"en_mod.md\":\"G-yREDBQ\",\"index.md\":\"zLn5LuTh\",\"mod.md\":\"6l2qe0Qp\",\"readme_en.md\":\"DUGlxusX\",\"zh_tw_index.md\":\"D5z4PgNK\",\"zh_tw_mod.md\":\"LRv0Ks6_\"}");
-      window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"聖小熊的祕密基地\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"footer\":{\"message\":\"AGPL-3.0 Licensed\",\"copyright\":\"Copyright © 2025 聖小熊 & HolyBear\"},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/HolyBearTW\"}]},\"locales\":{\"root\":{\"label\":\"繁體中文\",\"lang\":\"zh-TW\",\"themeConfig\":{\"nav\":[{\"text\":\"日誌\",\"link\":\"/blog\"},{\"text\":\"作品集\",\"link\":\"/Mod\"},{\"text\":\"Telegram\",\"link\":\"https://t.me/HolyBearTW\"},{\"text\":\"贊助\",\"link\":\"https://paypal.me/holybear0610\"}],\"lastUpdatedText\":\"最後更新\",\"darkModeSwitchLabel\":\"深色模式\",\"returnToTopLabel\":\"回到頂部\",\"outline\":{\"label\":\"目錄\"},\"editLink\":{\"pattern\":\"https://github.com/HolyBearTW/holybear.me/edit/main/:path\",\"text\":\"在 GitHub 中編輯此頁\"}},\"description\":\"這是聖小熊的個人網站\"},\"en\":{\"label\":\"English\",\"lang\":\"en-US\",\"themeConfig\":{\"nav\":[{\"text\":\"Blog\",\"link\":\"/blog\"},{\"text\":\"Portfolio\",\"link\":\"en/Mod\"},{\"text\":\"Telegram\",\"link\":\"https://t.me/HolyBearTW\"},{\"text\":\"Donate\",\"link\":\"https://paypal.me/holybear0610\"}],\"lastUpdatedText\":\"Last updated\",\"darkModeSwitchLabel\":\"Dark mode\",\"returnToTopLabel\":\"Return to top\",\"outline\":{\"label\":\"Label\"},\"editLink\":{\"pattern\":\"https://github.com/HolyBearTW/holybear.me/edit/main/:path\",\"text\":\"Edit this page on GitHub\"}},\"description\":\"This is HolyBear personal website\"}},\"scrollOffset\":134,\"cleanUrls\":false}");
-    </script>
-  </body>
-</html>
+  </div>
+</template>
+
+<script setup>
+import { onMounted } from 'vue'
+onMounted(() => {
+  document.title = '聖小熊的祕密基地'
+})
+</script>
+
+<style scoped>
+.vp-404 {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bear {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  color: #00bfae;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+p {
+  margin: 0 0 1.5rem 0;
+  color: #333;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 0.75em 2em;
+  background: #00bfae;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,191,174,0.09);
+  transition: background 0.2s;
+}
+.btn-home:hover {
+  background: #008c7f;
+}
+
+/* 響應式微調 */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
+  .bear {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+}
+</style>
