@@ -222,7 +222,7 @@ const ue=()=>{};var W={};/**
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */class Xe{constructor(e){this.container=e}getPlatformInfoString(){return this.container.getProviders().map(n=>{if(qe(n)){const s=n.getImmediate();return`${s.library}/${s.version}`}else return null}).filter(n=>n).join(" ")}}function qe(t){const e=t.getComponent();return(e==null?void 0:e.type)==="VERSION"}const L="@firebase/app",X="0.13.0";/**
+ */class Xe{constructor(e){this.container=e}getPlatformInfoString(){return this.container.getProviders().map(n=>{if(qe(n)){const s=n.getImmediate();return`${s.library}/${s.version}`}else return null}).filter(n=>n).join(" ")}}function qe(t){const e=t.getComponent();return(e==null?void 0:e.type)==="VERSION"}const L="@firebase/app",X="0.13.1";/**
  * @license
  * Copyright 2019 Google LLC
  *
@@ -237,7 +237,7 @@ const ue=()=>{};var W={};/**
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */const f=new Fe("@firebase/app"),Qe="@firebase/app-compat",et="@firebase/analytics-compat",tt="@firebase/analytics",nt="@firebase/app-check-compat",rt="@firebase/app-check",st="@firebase/auth",at="@firebase/auth-compat",it="@firebase/database",ot="@firebase/data-connect",ct="@firebase/database-compat",lt="@firebase/functions",dt="@firebase/functions-compat",ht="@firebase/installations",ut="@firebase/installations-compat",ft="@firebase/messaging",pt="@firebase/messaging-compat",mt="@firebase/performance",gt="@firebase/performance-compat",bt="@firebase/remote-config",_t="@firebase/remote-config-compat",yt="@firebase/storage",Et="@firebase/storage-compat",vt="@firebase/firestore",Ct="@firebase/ai",It="@firebase/firestore-compat",wt="firebase",Dt="11.8.0";/**
+ */const f=new Fe("@firebase/app"),Qe="@firebase/app-compat",et="@firebase/analytics-compat",tt="@firebase/analytics",nt="@firebase/app-check-compat",rt="@firebase/app-check",st="@firebase/auth",at="@firebase/auth-compat",it="@firebase/database",ot="@firebase/data-connect",ct="@firebase/database-compat",lt="@firebase/functions",dt="@firebase/functions-compat",ht="@firebase/installations",ut="@firebase/installations-compat",ft="@firebase/messaging",pt="@firebase/messaging-compat",mt="@firebase/performance",gt="@firebase/performance-compat",bt="@firebase/remote-config",_t="@firebase/remote-config-compat",yt="@firebase/storage",Et="@firebase/storage-compat",vt="@firebase/firestore",Ct="@firebase/ai",It="@firebase/firestore-compat",wt="firebase",Dt="11.9.0";/**
  * @license
  * Copyright 2019 Google LLC
  *
